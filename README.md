@@ -9,6 +9,6 @@ at `rpm` revolutions per minute, inducing a flow in the fluid.
 
 The number of vectors shown within in the velocity vector field can be altered as
 follows: 
-- `radial_points` adjusts the number of points in the radial (r) direction.
-- `angular_points` adjusts the number of points in the angular (θ) direction.
-- `vertical_points` adjusts the number of points in the vertical (z) direction.
+- `radial_points` adjusts the number of points in the radial $$r$$ direction.
+- `angular_points` adjusts the number of points in the angular $$θ$$ direction.
+- `vertical_points` adjusts the number of points in the vertical $$z$$ direction.
