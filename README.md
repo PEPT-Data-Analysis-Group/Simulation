@@ -7,8 +7,8 @@ infinitely long cylinders with radii `r1` (for the inner) and `r2` (for the
 outer). The outer cylinder remains stationary, whilst the inner cylinder rotates
 at `rpm` revolutions per minute, inducing a flow in the fluid.
 
-The number of vectors shown within the velocity vector field can be altered as
-follows: 
+The number of vectors shown within the velocity vector field can be altered using
+the following parameters:
 - `radial_points` adjusts the number of points in the radial $r$ direction.
 - `angular_points` adjusts the number of points in the angular $θ$ direction.
 - `vertical_points` adjusts the number of points in the vertical $z$ direction.
