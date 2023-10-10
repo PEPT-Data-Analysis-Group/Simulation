@@ -45,7 +45,7 @@ Y = R * np.sin(Theta)
 # Convert Vtheta to cartesian
 vec_X = -np.sin(Theta)*Vtheta
 vec_Y = np.cos(Theta)*Vtheta
-vec_Z = np.zeros(len(Vtheta))
+vec_Z = 0
 
 # Create a 3D plot of the vector field
 fig = plt.figure()
