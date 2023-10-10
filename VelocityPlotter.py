@@ -5,8 +5,8 @@ from mpl_toolkits.mplot3d import Axes3D
 # function to be plotted
 def v(r, r1, r2, omega):
     dist = r2**2 - r1**2
-    a = (-1 * omega * r1**2) / dist
-    b = (omega * r1**2 * r2**2)/dist
+    a = (-1 * omega * r1) / dist
+    b = (omega * r1 * r2**2)/dist
     return a*r + b/r
 
 # convert from RPM to rad/s
@@ -50,7 +50,7 @@ vec_Z = 0
 # Create a 3D plot of the vector field
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-ax.quiver(X, Y, Z, vec_X, vec_Y, vec_Z, length = 0.3, normalize = False)
+ax.quiver(X, Y, Z, vec_X, vec_Y, vec_Z, length = 0.01, normalize = False)
 ax.set_xlabel('x (m)')
 ax.set_ylabel('y (m)')
 ax.set_zlabel('z (m)')
